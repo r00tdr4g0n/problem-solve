@@ -26,13 +26,3 @@ public:
         return max(sell[n-1],cooldown[n-1]);
     }
 };
-
-int main()
-{
-vector<int> v = {1,2,3,0,2};
-
-	Solution s;
-    s.maxProfit(v);
-
-    return 0;
-}
