@@ -29,13 +29,3 @@ public:
 		return true;
     }
 }; 
-
-
-int main()
-{
-	Solution s;
-	bool res = s.isPalindrome("A man, a plan, a canal: Panama");
-	cout << "res: " << (res ? "true" : "false") << endl;
-
-	return 0;
-}
